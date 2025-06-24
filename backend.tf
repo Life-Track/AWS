@@ -3,7 +3,7 @@ terraform {
     bucket         = "my-terraform-state-life-track"
     key            = "terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "tf_locks"
+    dynamodb_table = "terraform-locks"
     encrypt        = true
   }
 }
