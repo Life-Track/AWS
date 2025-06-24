@@ -24,3 +24,5 @@ To set up this project from scratch, take the following steps prior to the first
 
     b. `AWS_REGION: <YOUR AWS REGION>`
 
+5. To create necessary state files, deploy the site once with the backend.tf code commented out to initialize the bootstrap_backend.tf files. change the bucket name to fit
+
