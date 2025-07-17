@@ -9,6 +9,6 @@ locals {
 }
 
 module "finance" {
-  source  = "https://github.com/Life-Track/finance.git?ref=v0.1.1"
+  source  = "git::https://github.com/Life-Track/finance.git?ref=v0.1.1"
   s3_name = "beans_bang_wife"
 }
