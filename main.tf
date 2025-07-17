@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 locals {
-  finance_module_version = "v0.1.3"
-  finance_module_repo    = "https://github.com/Life-Track/finance.git"
-  finance_module_source  = "${locals.finance_module_repo}?ref=${locals.finance_module_version}"
+  # finance_module_version = "v0.1.3"
+  # finance_module_repo    = "https://github.com/Life-Track/finance.git"
+  # finance_module_source  = "${locals.finance_module_repo}?ref=${locals.finance_module_version}"
 }
 
 module "finance" {
